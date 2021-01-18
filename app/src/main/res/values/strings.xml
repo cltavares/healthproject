@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Saúde na Faixa</string>
+    <string name="activity_login_email">E-Mail</string>
+    <string name="activity_login_password">Senha</string>
+    <string name="activity_login_connect_bt">Conectar</string>
+    <string name="activity_login_sign_up">Cadastre-se</string>
+    <string name="activity_login_keep_me_logged">Me mantenha conectado</string>
+
+    <string name="activity_sign_up_name">Nome</string>
+    <string name="activity_sign_up_gender">Gênero</string>
+    <string name="activity_sign_up_age">Idade</string>
+    <string name="activity_sign_up_weight">Peso</string>
+    <string name="activity_sign_up_height">Altura</string>
+    <string name="activity_sign_up_email">E-Mail</string>
+    <string name="activity_sign_up_password">Senha</string>
+    <string name="activity_sign_up_allergies">Alergias</string>
+    <string name="activity_sign_up_previous_health_problems">Problemas de saúde prévios</string>
+    <string name="activity_sign_up_previous_surgeries">Cirurgias prévias</string>
+    <string name="activity_sign_up_current_medicines">Medicamentos em uso</string>
+    <string name="activity_sign_up_emergency_contacts">Contatos de emergência</string>
+</resources>

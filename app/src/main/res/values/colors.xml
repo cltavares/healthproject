@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03989e</color>
+    <color name="colorPrimaryLight">#00c2cb</color>
+    <color name="colorAccent">#32cfd6</color>
+    <color name="colorComplement">#f4bc33</color>
+    <color name="textColor">#000000</color>
+
+<!--    <color name="signUpColor"></color>-->
+</resources>
