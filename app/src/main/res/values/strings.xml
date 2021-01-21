@@ -18,4 +18,12 @@
     <string name="activity_sign_up_previous_surgeries">Cirurgias prévias</string>
     <string name="activity_sign_up_current_medicines">Medicamentos em uso</string>
     <string name="activity_sign_up_emergency_contacts">Contatos de emergência</string>
+    <string name="activity_sign_up_sign_up">Cadastrar</string>
+
+    <string name="activity_home_general_rate">Nota geral da minha saúde</string>
+    <string name="activity_home_emotional_health_today">Saúde Emocional Hoje</string>
+    <string name="activity_home_physical_health_today">Saúde Física Agora</string>
+    <string name="activity_home_general_alerts">Alertas</string>
+    <string name="activity_home_general_online_appointment">Consulta Online</string>
+    <string name="activity_home_general_profile">Meu Perfil</string>
 </resources>

@@ -13,6 +13,10 @@ class LoginActivity : AppCompatActivity() {
         signUpButton.setOnClickListener {
             startActivity(Intent(this, SignUpActivity::class.java))
         }
+
+        signInBt.setOnClickListener {
+            startActivity(Intent(this, HomeActivity::class.java))
+        }
     }
 
 
