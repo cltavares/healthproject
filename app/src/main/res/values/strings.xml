@@ -26,4 +26,9 @@
     <string name="activity_home_general_alerts">Alertas</string>
     <string name="activity_home_general_online_appointment">Consulta Online</string>
     <string name="activity_home_general_profile">Meu Perfil</string>
+
+    <string name="activity_emotional_health_emotions_felt">Emoções sentidas</string>
+    <string name="activity_emotional_health_situation">Situação</string>
+    <string name="activity_emotional_health_thoughts">Pensamentos</string>
+    <string name="activity_emotional_health_actions">Ações</string>
 </resources>

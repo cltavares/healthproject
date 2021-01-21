@@ -15,30 +15,28 @@
         android:src="@drawable/chart"/>
 
     <Button
+        android:id="@+id/generalHealthBt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/activity_home_general_rate"/>
 
     <Button
+        android:id="@+id/emotionalHealthBt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/activity_home_emotional_health_today"/>
 
     <Button
+        android:id="@+id/physicalHealthBt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/activity_home_physical_health_today"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/activity_home_general_alerts"/>
-
-    <Button
+        android:id="@+id/onlineAppointmentBt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -49,6 +47,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/activity_home_general_profile"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/activity_home_general_alerts"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
