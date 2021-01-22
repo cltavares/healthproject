@@ -5,6 +5,7 @@
     <string name="activity_login_connect_bt">Conectar</string>
     <string name="activity_login_sign_up">Cadastre-se</string>
     <string name="activity_login_keep_me_logged">Me mantenha conectado</string>
+    <string name="activity_login_privacy">Aceito a política de privacidade</string>
 
     <string name="activity_sign_up_name">Nome</string>
     <string name="activity_sign_up_gender">Gênero</string>
@@ -12,7 +13,9 @@
     <string name="activity_sign_up_weight">Peso</string>
     <string name="activity_sign_up_height">Altura</string>
     <string name="activity_sign_up_email">E-Mail</string>
+    <string name="activity_sign_up_email_confirm">Confirmar E-Mail</string>
     <string name="activity_sign_up_password">Senha</string>
+    <string name="activity_sign_up_password_confirm">Confirmar Senha</string>
     <string name="activity_sign_up_allergies">Alergias</string>
     <string name="activity_sign_up_previous_health_problems">Problemas de saúde prévios</string>
     <string name="activity_sign_up_previous_surgeries">Cirurgias prévias</string>
@@ -27,8 +30,25 @@
     <string name="activity_home_general_online_appointment">Consulta Online</string>
     <string name="activity_home_general_profile">Meu Perfil</string>
 
-    <string name="activity_emotional_health_emotions_felt">Emoções sentidas</string>
-    <string name="activity_emotional_health_situation">Situação</string>
-    <string name="activity_emotional_health_thoughts">Pensamentos</string>
-    <string name="activity_emotional_health_actions">Ações</string>
+    <string name="activity_emotional_health_how_are_you_feeling">Como você está seu humor hoje?</string>
+    <string name="activity_emotional_health_anxiety_level">Como está sua ansiedade hoje?</string>
+    <string name="activity_emotional_health_stress_level">Como está seu estresse hoje?</string>
+    <string name="activity_emotional_health_emotions">Quais destas emoções você sentiu hoje?</string>
+    <string name="activity_emotional_health_observations">Observações</string>
+    <string-array name="activity_emotional_health_emotions_list">
+        <item>Alegria</item>
+        <item>Tristeza</item>
+        <item>Nojo</item>
+        <item>Raiva</item>
+        <item>Medo</item>
+    </string-array>
+
+    <string name="activity_real_time_health_blood_pressure">Pressão arterial</string>
+    <string name="activity_real_time_health_heart_rate">Batimentos Cardíacos</string>
+    <string name="activity_real_time_health_body_temperature">Temperatura Corporal</string>
+    <string name="activity_real_time_health_steps">Quantidade de Passos</string>
+    <string name="activity_real_time_health_sleep_hours">Horas de sono</string>
+
+    <string name="activity_physical_health_rate">é a nota da sua saúde hoje</string>
+    <string name="activity_physical_health_improve_rate_bt">Clique para ver como aumentar sua nota</string>
 </resources>

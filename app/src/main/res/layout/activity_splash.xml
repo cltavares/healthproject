@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".SplashActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/ic_background2" />
+        android:background="@drawable/background" />
 
     <LinearLayout
         android:id="@+id/logoLayout"
@@ -22,15 +22,15 @@
 
         <ImageView
             android:id="@+id/heartLogo"
-            android:layout_width="200dp"
+            android:layout_width="220dp"
             android:layout_height="200dp"
-            android:background="@drawable/ic_logoso" />
+            android:background="@drawable/coracao" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
             android:layout_marginTop="16dp"
-            android:background="@drawable/ic_launcher_background" />
+            android:background="@drawable/nome"/>
     </LinearLayout>
 
     <ProgressBar

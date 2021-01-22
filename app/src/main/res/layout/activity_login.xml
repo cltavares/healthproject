@@ -6,11 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/ic_background2" />
-
     <LinearLayout
         android:id="@+id/logoLayout"
         android:layout_width="match_parent"
@@ -25,37 +20,21 @@
 
         <ImageView
             android:id="@+id/heartLogo"
-            android:layout_width="160dp"
+            android:layout_width="180dp"
             android:layout_height="160dp"
             android:background="@drawable/ic_logoso" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/activity_login_email"
-            android:textSize="20sp"
-            android:layout_marginTop="16dp"/>
-
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/activity_login_password"
-            android:textSize="20sp" />
+            android:hint="@string/activity_login_email" />
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <CheckBox
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/activity_login_keep_me_logged" />
+            android:hint="@string/activity_login_password" />
 
         <Button
             android:id="@+id/signInBt"
@@ -64,12 +43,24 @@
             android:layout_marginTop="16dp"
             android:text="@string/activity_login_connect_bt" />
 
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/activity_login_keep_me_logged" />
+
         <Button
             android:id="@+id/signUpButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/activity_login_sign_up" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/activity_login_privacy" />
 
     </LinearLayout>
 

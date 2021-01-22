@@ -9,12 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OnlineAppointmentActivity"/>
-        <activity android:name=".PhysicalHealthActivity" />
-        <activity android:name=".EmotionalHealthActivity" />
-        <activity android:name=".RealTimeHealthActivity" />
+        <activity android:name=".AlertActivity"
+            android:label="Alertas"/>
+        <activity android:name=".OnlineAppointmentActivity"
+            android:label="Consulta Online"/>
+        <activity android:name=".PhysicalHealthActivity"
+            android:label="Saúde Física"/>
+        <activity android:name=".EmotionalHealthActivity"
+            android:label="Saúde Emocional"/>
+        <activity android:name=".RealTimeHealthActivity"
+            android:label="Nota geral"/>
         <activity android:name=".HomeActivity" />
-        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SignUpActivity"
+            android:label="Cadastro"/>
         <activity android:name=".LoginActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>

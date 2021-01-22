@@ -26,8 +26,10 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, PhysicalHealthActivity::class.java))
         }
         onlineAppointmentBt.setOnClickListener {
-            startActivity(Intent(this, OnlineAppointmentActivity::class.java))
+//            startActivity(Intent(this, OnlineAppointmentActivity::class.java))
         }
-
+        alertsBt.setOnClickListener {
+            startActivity(Intent(this, AlertActivity::class.java))
+        }
     }
 }
